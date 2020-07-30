@@ -1,0 +1,59 @@
+.btn-menu {
+  background-color: #44c767;  
+  border-radius: 28px;
+	border: 1px solid #18ab29;
+	display: inline-block;
+	cursor: pointer;
+	color: #ed9ff8;
+	font-family: Arial;
+	font-size: 17px;
+	padding: 16px 50px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #2f6627;
+}
+  
+.btn-menu:hover {
+	background-color: #5cbf2a;
+}
+.btn-menu:active {
+	position: relative;
+	top: 1px;
+}
+h1 {
+  background:#F6539B;
+  bordepx dashed;
+  color:#2A979C;
+  padding:20px;
+  text-shadow: 5px 5px 1px black;
+  box-shadow: 40px 70px 50px -10px green
+  
+  }
+
+img {
+  border:20px dashed #CF34CC;
+    padding: 20px 50px 
+  background:linear-gradient(to right,#FE0173,#53BB84 );
+  margin:20px;
+   box-shadow: 22px 20px 10px 5px yellow;
+}
+
+table th,
+table td {
+    border: 1px solid #F902F1;
+    color:#25D915
+}
+
+table tbody tr:nth-child(odd) td {
+  background-color:#F902F1;
+   box-shadow: 12px 12px 1px red;
+  
+  body { 
+  background-image: linear-gradient(to top right, green, yellow);
+  
+}
+
+
+
+ 
+
+
