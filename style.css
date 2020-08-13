@@ -19,15 +19,17 @@
 	position: relative;
 	top: 1px;
 }
+
 h1 {
   background:#F6539B;
-  bordepx dashed;
+  border: 5px dashed;
   color:#2A979C;
   padding:20px;
   text-shadow: 5px 5px 1px black;
-  box-shadow: 40px 70px 50px -10px green
+  box-shadow: 40px 70px 50px -10px green 
   
-  }
+}
+
 
 img {
   border:20px dashed #CF34CC;
@@ -41,16 +43,37 @@ table th,
 table td {
     border: 1px solid #F902F1;
     color:#25D915
+      
 }
 
 table tbody tr:nth-child(odd) td {
   background-color:#F902F1;
    box-shadow: 12px 12px 1px red;
-  
-  body { 
+}  
+table tbody tr:nth-child(even) td {
+  background-color: blue;
+   box-shadow: 12px 12px 1px red;
+} 
+body { 
   background-image: linear-gradient(to top right, green, yellow);
   
 }
+
+iframe{
+   box-shadow: 12px 12px 5px #d1824b
+}
+
+li{
+  text-shadow: 5px 5px 3px black
+}
+
+p {
+  text-shadow: 5px 5px 3px black
+}
+
+
+
+
 
 
 
